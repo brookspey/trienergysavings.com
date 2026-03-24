@@ -513,6 +513,10 @@ p:last-child {
   margin-bottom: 1rem;
 }
 
+.hero__desc {
+  color: #fff;
+}
+
 .hero__subtitle {
   font-size: 1.1rem;
   font-weight: 300;

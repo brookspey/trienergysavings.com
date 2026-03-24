@@ -110,7 +110,7 @@ function initContactForm() {
 
     var data = new FormData(form);
 
-    fetch('https://formsubmit.co/ajax/peyton@tryastor.com', {
+    fetch('https://formsubmit.co/ajax/peyton@tryastor.com,info@trienergysavings.com', {
       method: 'POST',
       body: data,
       headers: { 'Accept': 'application/json' }

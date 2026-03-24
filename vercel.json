@@ -7,5 +7,17 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/florescent-tube-recycling.html",
+      "destination": "/fluorescent-tube-recycling.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/led-lightning.html",
+      "destination": "/led-lighting.html",
+      "statusCode": 301
+    }
+  ],
   "trailingSlash": false
 }

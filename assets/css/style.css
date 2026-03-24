@@ -1,10 +1,7 @@
-/*--------------------------
-    Project Name: Solatec
-    Version: 1.0
-    Author: 7oorof
-    Devloped by: Ahmed Abdallah (a.abdallah999@gmail.com)
-    Relase Date: July 2021
----------------------------*/
+/*
+ * Tri Energy Savings
+ * https://trienergysavings.com
+ */
 /*---------------------------
       Table of Contents
     -------------------------
@@ -1458,7 +1455,9 @@ h6 {
 }
 
 .btn .icon-arrow-right,
-.btn .icon-arrow-left {
+.btn .icon-arrow-left,
+.btn .fa-arrow-right,
+.btn .fa-arrow-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1521,8 +1520,9 @@ h6 {
 }
 
 .btn__primary.btn__outlined .icon-arrow-right,
-.btn__primary.btn__outlined .icon-arrow-left {
-  color: #ffffff;
+.btn__primary.btn__outlined .icon-arrow-left,
+.btn__primary.btn__outlined .fa-arrow-right,
+.btn__primary.btn__outlined .fa-arrow-left {
   background-color: #4aab3d;
 }
 
@@ -1531,13 +1531,16 @@ h6 {
 }
 
 .btn__primary.btn__outlined:hover .icon-arrow-right,
-.btn__primary.btn__outlined:hover .icon-arrow-left {
-  color: #4aab3d;
-  background-color: #ffffff;
+.btn__primary.btn__outlined:hover .icon-arrow-left,
+.btn__primary.btn__outlined:hover .fa-arrow-right,
+.btn__primary.btn__outlined:hover .fa-arrow-left {
+  color: #ffffff;
 }
 
 .btn__primary .icon-arrow-right,
-.btn__primary .icon-arrow-left {
+.btn__primary .icon-arrow-left,
+.btn__primary .fa-arrow-right,
+.btn__primary .fa-arrow-left {
   color: #4aab3d;
   background-color: #ffffff;
 }
@@ -1547,8 +1550,10 @@ h6 {
 }
 
 .btn__primary:hover .icon-arrow-right,
-.btn__primary:hover .icon-arrow-left {
-  color: #1b1a1a;
+.btn__primary:hover .icon-arrow-left,
+.btn__primary:hover .fa-arrow-right,
+.btn__primary:hover .fa-arrow-left {
+  color: #ffffff;
 }
 
 .btn__primary-style2:before {
@@ -1560,9 +1565,10 @@ h6 {
 }
 
 .btn__primary-style2:hover .icon-arrow-right,
-.btn__primary-style2:hover .icon-arrow-left {
-  color: #ffffff;
-  background-color: #1b1a1a;
+.btn__primary-style2:hover .icon-arrow-left,
+.btn__primary-style2:hover .fa-arrow-right,
+.btn__primary-style2:hover .fa-arrow-left {
+  color: #1b1a1a;
 }
 
 .btn__secondary {
@@ -1575,9 +1581,10 @@ h6 {
 }
 
 .btn__secondary .icon-arrow-right,
-.btn__secondary .icon-arrow-left {
-  color: #1b1a1a;
-  background-color: #ffffff;
+.btn__secondary .icon-arrow-left,
+.btn__secondary .fa-arrow-right,
+.btn__secondary .fa-arrow-left {
+  background-color: #4aab3d !important;
 }
 
 .btn__secondary:hover {
@@ -1585,8 +1592,10 @@ h6 {
 }
 
 .btn__secondary:hover .icon-arrow-right,
-.btn__secondary:hover .icon-arrow-left {
-  color: #4aab3d;
+.btn__secondary:hover .icon-arrow-left,
+.btn__secondary:hover .fa-arrow-right,
+.btn__secondary:hover .fa-arrow-left {
+  color: #ffffff;
 }
 
 .btn__secondary:active, .btn__secondary:focus {
@@ -1613,9 +1622,10 @@ h6 {
 }
 
 .btn__secondary.btn__outlined .icon-arrow-right,
-.btn__secondary.btn__outlined .icon-arrow-left {
-  color: #ffffff;
-  background-color: #1b1a1a;
+.btn__secondary.btn__outlined .icon-arrow-left,
+.btn__secondary.btn__outlined .fa-arrow-right,
+.btn__secondary.btn__outlined .fa-arrow-left {
+  display: none;
 }
 
 .btn__secondary.btn__outlined:hover {
@@ -1624,9 +1634,11 @@ h6 {
 }
 
 .btn__secondary.btn__outlined:hover .icon-arrow-right,
-.btn__secondary.btn__outlined:hover .icon-arrow-left {
-  color: #1b1a1a;
-  background-color: #ffffff;
+.btn__secondary.btn__outlined:hover .icon-arrow-left,
+.btn__secondary.btn__outlined:hover .fa-arrow-right,
+.btn__secondary.btn__outlined:hover .fa-arrow-left {
+  color: #ffffff;
+  background-color: #1b1a1a;
 }
 
 .btn__white {
@@ -1639,9 +1651,10 @@ h6 {
 }
 
 .btn__white .icon-arrow-right,
-.btn__white .icon-arrow-left {
-  color: #ffffff;
-  background-color: #4aab3d;
+.btn__white .icon-arrow-left,
+.btn__white .fa-arrow-right,
+.btn__white .fa-arrow-left {
+  background-color: #4aab3d !important;
 }
 
 .btn__white:hover {
@@ -1649,9 +1662,10 @@ h6 {
 }
 
 .btn__white:hover .icon-arrow-right,
-.btn__white:hover .icon-arrow-left {
-  color: #4aab3d;
-  background-color: #ffffff;
+.btn__white:hover .icon-arrow-left,
+.btn__white:hover .fa-arrow-right,
+.btn__white:hover .fa-arrow-left {
+  color: #ffffff;
 }
 
 .btn__white:active, .btn__white:focus {
@@ -1668,9 +1682,10 @@ h6 {
 }
 
 .btn__white-style2:hover .icon-arrow-right,
-.btn__white-style2:hover .icon-arrow-left {
-  color: #1b1a1a;
-  background-color: #ffffff;
+.btn__white-style2:hover .icon-arrow-left,
+.btn__white-style2:hover .fa-arrow-right,
+.btn__white-style2:hover .fa-arrow-left {
+  color: #ffffff;
 }
 
 .btn__white.btn__outlined {
@@ -1711,9 +1726,10 @@ h6 {
 }
 
 .btn__link.btn__primary .icon-arrow-right,
-.btn__link.btn__primary .icon-arrow-left {
-  color: #ffffff;
-  background-color: #4aab3d;
+.btn__link.btn__primary .icon-arrow-left,
+.btn__link.btn__primary .fa-arrow-right,
+.btn__link.btn__primary .fa-arrow-left {
+  color: #4aab3d;
 }
 
 .btn__link.btn__primary:hover {
@@ -1721,9 +1737,10 @@ h6 {
 }
 
 .btn__link.btn__primary:hover .icon-arrow-right,
-.btn__link.btn__primary:hover .icon-arrow-left {
-  color: #ffffff;
-  background-color: #1b1a1a;
+.btn__link.btn__primary:hover .icon-arrow-left,
+.btn__link.btn__primary:hover .fa-arrow-right,
+.btn__link.btn__primary:hover .fa-arrow-left {
+  color: #1b1a1a;
 }
 
 .btn__link.btn__secondary {
@@ -1743,9 +1760,10 @@ h6 {
 }
 
 .btn__link.btn__white .icon-arrow-right,
-.btn__link.btn__white .icon-arrow-left {
-  color: #1b1a1a;
-  background-color: #ffffff;
+.btn__link.btn__white .icon-arrow-left,
+.btn__link.btn__white .fa-arrow-right,
+.btn__link.btn__white .fa-arrow-left {
+  color: #4aab3d;
 }
 
 .btn__link.btn__white:hover {
@@ -1753,9 +1771,10 @@ h6 {
 }
 
 .btn__link.btn__white:hover .icon-arrow-right,
-.btn__link.btn__white:hover .icon-arrow-left {
-  color: #ffffff;
-  background-color: #4aab3d;
+.btn__link.btn__white:hover .icon-arrow-left,
+.btn__link.btn__white:hover .fa-arrow-right,
+.btn__link.btn__white:hover .fa-arrow-left {
+  color: #4aab3d;
 }
 
 .btn__rounded {
@@ -1878,11 +1897,12 @@ h6 {
 }
 
 .btn__secondary.btn__outlined.btn__custom .icon-arrow-right,
-.btn__secondary.btn__outlined.btn__custom .icon-arrow-left {
-  color: #ffffff;
-  background-color: #1b1a1a;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+.btn__secondary.btn__outlined.btn__custom .icon-arrow-left,
+.btn__secondary.btn__outlined.btn__custom .fa-arrow-right,
+.btn__secondary.btn__outlined.btn__custom .fa-arrow-left {
+  border-color: #eaeaea;
+  color: #1b1a1a;
+  overflow: visible;
 }
 
 .btn__secondary.btn__outlined.btn__custom:before {
@@ -1906,9 +1926,12 @@ h6 {
 }
 
 .btn__secondary.btn__outlined.btn__custom:hover .icon-arrow-right,
-.btn__secondary.btn__outlined.btn__custom:hover .icon-arrow-left {
-  color: #4aab3d;
-  background-color: #ffffff;
+.btn__secondary.btn__outlined.btn__custom:hover .icon-arrow-left,
+.btn__secondary.btn__outlined.btn__custom:hover .fa-arrow-right,
+.btn__secondary.btn__outlined.btn__custom:hover .fa-arrow-left {
+  color: #ffffff;
+  border-color: #4aab3d;
+  background-color: #4aab3d;
 }
 
 .btn__primary.btn__outlined.btn__custom {
@@ -1918,11 +1941,12 @@ h6 {
 }
 
 .btn__primary.btn__outlined.btn__custom .icon-arrow-right,
-.btn__primary.btn__outlined.btn__custom .icon-arrow-left {
-  color: #ffffff;
-  background-color: #4aab3d;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+.btn__primary.btn__outlined.btn__custom .icon-arrow-left,
+.btn__primary.btn__outlined.btn__custom .fa-arrow-right,
+.btn__primary.btn__outlined.btn__custom .fa-arrow-left {
+  border-color: #eaeaea;
+  color: #4aab3d;
+  overflow: visible;
 }
 
 .btn__primary.btn__outlined.btn__custom:before {
@@ -1946,9 +1970,12 @@ h6 {
 }
 
 .btn__primary.btn__outlined.btn__custom:hover .icon-arrow-right,
-.btn__primary.btn__outlined.btn__custom:hover .icon-arrow-left {
-  color: #4aab3d;
-  background-color: #ffffff;
+.btn__primary.btn__outlined.btn__custom:hover .icon-arrow-left,
+.btn__primary.btn__outlined.btn__custom:hover .fa-arrow-right,
+.btn__primary.btn__outlined.btn__custom:hover .fa-arrow-left {
+  color: #ffffff;
+  border-color: #4aab3d;
+  background-color: #4aab3d;
 }
 
 /* Mobile Phones and tablets */
@@ -2229,7 +2256,8 @@ textarea.form-control {
   margin-right: 0;
 }
 
-.icon-arrow-right {
+.icon-arrow-right,
+.fa-arrow-right {
   font-size: 65%;
 }
 
@@ -4041,7 +4069,8 @@ textarea.form-control {
   color: #4aab3d;
 }
 
-.footer-widget-about .btn .icon-arrow-right {
+.footer-widget-about .btn .icon-arrow-right,
+.footer-widget-about .btn .fa-arrow-right {
   color: #ffffff;
   background-color: #4aab3d;
 }
@@ -4050,7 +4079,8 @@ textarea.form-control {
   color: #ffffff;
 }
 
-.footer-widget-about .btn:hover .icon-arrow-right {
+.footer-widget-about .btn:hover .icon-arrow-right,
+.footer-widget-about .btn:hover .fa-arrow-right {
   color: #1b1a1a;
   background-color: #ffffff;
 }
@@ -5739,7 +5769,8 @@ textarea.form-control {
   bottom: 0;
 }
 
-.portfolio-carousel .btn__white.btn__outlined .icon-arrow-right {
+.portfolio-carousel .btn__white.btn__outlined .icon-arrow-right,
+.portfolio-carousel .btn__white.btn__outlined .fa-arrow-right {
   color: #1b1a1a;
   background-color: #ffffff;
 }
@@ -5748,7 +5779,8 @@ textarea.form-control {
   color: #1b1a1a;
 }
 
-.portfolio-carousel .btn__white.btn__outlined:hover .icon-arrow-right {
+.portfolio-carousel .btn__white.btn__outlined:hover .icon-arrow-right,
+.portfolio-carousel .btn__white.btn__outlined:hover .fa-arrow-right {
   color: #ffffff;
   background-color: #1b1a1a;
 }
@@ -6594,7 +6626,9 @@ textarea.form-control {
 }
 
 .post-item:hover .btn .icon-arrow-right,
-.post-item:hover .btn .icon-arrow-left {
+.post-item:hover .btn .icon-arrow-left,
+.post-item:hover .btn .fa-arrow-right,
+.post-item:hover .btn .fa-arrow-left {
   color: #4aab3d;
   background-color: #ffffff;
 }
@@ -7797,7 +7831,7 @@ textarea.form-control {
   .sidebar.has-marign-right {
     margin-right: 30px;
   }
-  .sidebar.has-marign-left {
+  .sidebar.has-margin-left {
     margin-left: 30px;
   }
 }
@@ -9125,3 +9159,83 @@ playback timings (ms):
   load_resource: 227.043
   loaddict: 51.529
 */
+
+/* Form Feedback Styles */
+.form-success {
+  color: #4aab3d;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form-error {
+  color: #e74c3c;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Gallery Page */
+.gallery-card {
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-card__image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.gallery-card__caption {
+  padding: 15px;
+  background: #fff;
+}
+
+.gallery-card__caption h5 {
+  margin-bottom: 5px;
+}
+
+.gallery-card__caption p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Reviews Page */
+.testimonial-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.testimonial-card__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* Contact Page */
+.contact-info-card {
+  background: #f8f9fa;
+  padding: 40px 30px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.contact-info-card__icon {
+  font-size: 48px;
+  color: #4aab3d;
+}
+
+.contact-info-card__muted {
+  color: #777;
+}
+
+.contact-map-wrapper {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}

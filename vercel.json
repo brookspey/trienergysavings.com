@@ -10,14 +10,15 @@
   "redirects": [
     {
       "source": "/florescent-tube-recycling.html",
-      "destination": "/fluorescent-tube-recycling.html",
+      "destination": "/fluorescent-tube-recycling",
       "statusCode": 301
     },
     {
       "source": "/led-lightning.html",
-      "destination": "/led-lighting.html",
+      "destination": "/led-lighting",
       "statusCode": 301
     }
   ],
-  "trailingSlash": false
+  "trailingSlash": false,
+  "cleanUrls": true
 }

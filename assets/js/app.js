@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
   initMobileMenu();
-  initDropdowns();
   initStickyNav();
   initSmoothScroll();
   initScrollToTop();
@@ -40,49 +39,8 @@ function initMobileMenu() {
     overlay.addEventListener('click', closeMenu);
   }
 
-  menu.querySelectorAll('.nav__dropdown-menu a, .nav__link').forEach(function (link) {
+  menu.querySelectorAll('a').forEach(function (link) {
     link.addEventListener('click', closeMenu);
-  });
-}
-
-function initDropdowns() {
-  var dropdowns = document.querySelectorAll('.nav__dropdown');
-
-  dropdowns.forEach(function (dropdown) {
-    var toggle = dropdown.querySelector('.nav__dropdown-toggle');
-    if (!toggle) return;
-
-    toggle.addEventListener('click', function (e) {
-      // On mobile, toggle accordion behavior
-      if (window.innerWidth < 1024) {
-        e.preventDefault();
-        var isActive = dropdown.classList.contains('active');
-
-        // Close all other dropdowns
-        dropdowns.forEach(function (d) {
-          d.classList.remove('active');
-          var btn = d.querySelector('.nav__dropdown-toggle');
-          if (btn) btn.setAttribute('aria-expanded', 'false');
-        });
-
-        // Toggle current
-        if (!isActive) {
-          dropdown.classList.add('active');
-          toggle.setAttribute('aria-expanded', 'true');
-        }
-      }
-    });
-  });
-
-  // Close dropdowns when clicking outside (desktop)
-  document.addEventListener('click', function (e) {
-    if (!e.target.closest('.nav__dropdown')) {
-      dropdowns.forEach(function (d) {
-        d.classList.remove('active');
-        var btn = d.querySelector('.nav__dropdown-toggle');
-        if (btn) btn.setAttribute('aria-expanded', 'false');
-      });
-    }
   });
 }
 
